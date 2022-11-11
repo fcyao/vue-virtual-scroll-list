@@ -1,12 +1,16 @@
 {
-  "name": "vue-virtual-scroll-list",
-  "version": "1.4.7",
+  "name": "@gcj-component/vue-virtual-scroll",
+  "version": "1.0.2",
   "description": "A vue component support big amount data list with high scroll performance.",
   "main": "dist/index.js",
   "files": [
     "src",
     "dist"
   ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "scripts": {
     "test": "rm -rf coverage && jest",
     "lint": "eslint src test demos --ext .js,.vue",
@@ -42,7 +46,6 @@
     "type": "git",
     "url": "https://github.com/tangbc/vue-virtual-scroll-list"
   },
-  "author": "TANG",
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.6.4",

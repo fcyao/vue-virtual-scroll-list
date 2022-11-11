@@ -7,3 +7,4 @@ demos/dev*/
 demos/**/*.map
 .idea
 .vscode
+.history

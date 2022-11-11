@@ -599,7 +599,7 @@
         style: {
           display: 'block',
           'overflow-y': this.size >= this.remain ? 'auto' : 'initial',
-          height: this.size * this.remain + 'px'
+          'max-height': this.size * this.remain + 'px'
         },
         on: {
           '&scroll': dbc ? _debounce(this.onScroll.bind(this), dbc) : this.onScroll
